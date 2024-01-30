@@ -1,0 +1,11 @@
+SocietyEra: Elevating Living Standards, Embracing Society's New Era.
+
+ The concept highlights the importance of not only improving material well-being but also adapting to the changing dynamics of society to create a more inclusive, equitable, and sustainable future for all. SocietyEra primarily serves as a comprehensive security management tool for gated communities, residential complexes, and apartments.main functionalities includes visitor management, Gate management, Notification and communication, Amenitiess Booking, Attendance and staff management, Emergency responses and many other.SocietyEra is basically a concept of improving the quality of life and adapting to the changes brought about by a rapidly evolving society.  
+
+PRESENTATION:
+-Brief Overview:
+SocietyEra is a digital solution for all new and old societal changes to change and elevate living standards. It mainly focuses on creating a healthy environment and growing community for to stay connected with each other in today's fast paced lifestyle. On surface level its aim to make people adapt new technical advancements , upgrade their cultural well-being , get easy solutions to some tedious and time consuming problems , make people connect with each other ( we all know when a group of people come together , sit together lot of new ideas get brewed which results in better future for everyone ).SocietyEra is basically a concept of improving the quality of life and adapting to the changes brought about by a rapidly evolving society.  
+ 
+-Market reserch:
+"My Gate" ,a banglore based initiative which resembles to our idea, other than that major tech cities , Hydrabad , Mumbai and some areas of pune do have this idea deployed and its running successfully. Getting Inspired form them we believe that there is a scope for SocietyEra in span of next 5 years, if deployed with proper analysis and market research. We also need to know what audience fits this idea.
+Now to build this platform we included html,css, bootstrap, javascript as major frontend technologies with django-python framework as backend and sqlite working as database.

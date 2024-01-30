@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocietyEra - Login/Sign-up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+    .navbar-brand{
+    color: rgb(240, 62, 62) !important;
+    }
+    .navbar{
+    padding-top: 15px !important;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #cbc7ab !important;    
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #68c0f0;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #68c0f0;
+      overflow: hidden;
+    }
+
+    .tabs {
+      display: flex;
+      padding-top: 20px;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 20px;
+    }
+
+    .tab:hover {
+      background-color: #2980b9;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 15px;
+      background-color: #3498db;
+      color: #fff;
+      cursor: pointer;
+      padding: 15px;
+    }
+
+    .form-group button:hover {
+      background-color: #2980b9;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><u>SocietyEra</u></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          </nav>
+          <div class="container">
+            <div class="tabs">
+              <div class="tab" onclick="openTab('login')">Login</div>
+              &nbsp;
+              <div class="tab" onclick="openTab('signup')">Sign Up</div>
+            </div>
+            <div class="content">
+              <div id="login" class="tab-content">
+                <form action="#" method="post">
+                  <div class="form-group">
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">
+                      <a href="homepage.html" style="text-decoration: none; color: white;">Login</a>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div id="signup" class="tab-content" style="display: none;">
+                <form action="#" method="post">
+                  <div class="form-group">
+                    <label for="signupUsername">Username:</label>
+                    <input type="text" id="signupUsername" name="signupUsername" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" name="signupEmail" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="signupPassword" required>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Sign Up</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <script>
+                function openTab(tabName) {
+                var tabs = document.getElementsByClassName("tab-content");
+                for (var i = 0; i < tabs.length; i++) {
+                tabs[i].style.display = "none";
+                }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+    </div>
+</body>
+</html>
